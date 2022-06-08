@@ -1,0 +1,20 @@
+.footer-container {
+    height: 10vh;
+    background-color: #F91F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer-container > p {
+    width: 15vw;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
