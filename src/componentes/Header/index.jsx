@@ -1,6 +1,7 @@
 import "./style.css"
 import logo from "../../assets/icons/Burger-Prince-logo.png"
 import ModalNewItem from '../Modals/ModalNewItem'
+import {toast} from "react-hot-toast"
 import { useState } from "react";
 
 const Header = ({getBurgers}) => {
@@ -19,7 +20,7 @@ const Header = ({getBurgers}) => {
             </div>
             <div className="header-container2">
             <div>
-               <i class="fa-solid fa-cart-shopping"></i>
+               <i onClick={() => toast.error("Sessão em desenvolvimento")} class="fa-solid fa-cart-shopping"></i>
             </div>
             <div>
                 <i onClick={handleShowModalCreate} class="fa-solid fa-square-plus"></i>

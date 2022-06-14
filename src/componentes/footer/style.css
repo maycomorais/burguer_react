@@ -1,20 +1,47 @@
+@font-face{
+    font-family: flame;
+  src: url(../../assets/icons/FlameBold.otf);
+}
+
 .footer-container {
+    display: flex;
     height: 10vh;
     background-color: #F91F00;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-  
-.footer-container > p {
-    width: 15vw;
+.info > p{
+    font-family: "flame";
+    color: white;
+    text-transform: uppercase;
     font-size: 20px;
-    font-family: sans-serif;
+}
+.logoName{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logoName > p {
+    font-size: 40px;
+    text-align: center;
+    font-family: "flame";
     color: white;
 }
 
-.footer-container > div {
+.logoName > img {
+    height: 90%;
+}
+.social{
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+}
+.social > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+.social > a > i{
+    font-size: 40px;
+    margin-left: 10px;
+    
 }

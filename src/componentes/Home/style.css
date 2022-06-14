@@ -15,7 +15,18 @@
     font-weight: 300;
     color: #f91300;
     letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.home-container > input {
+    text-align: center;
+    font-family: "flame";
+    background-color: #0000001c;
     margin-bottom: 40px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 6px;
 }
   
 .home-container > div {

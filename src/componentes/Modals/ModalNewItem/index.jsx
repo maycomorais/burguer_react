@@ -18,23 +18,11 @@ const ModalNewItem = ({closeModal, getBurgers}) => {
             preco,
             categoria,
         }
-        console.log(newBurger)
-        // const response = await fetch("http://localhost:3008/burguers/criar", {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "aplication/json"
-        //     },
-        //     mode: "cors",
-        //     body: JSON.stringify(newBurger)
-        // });
-        // console.log(response)
 
         const response = await api.post("/burguers/criar", newBurger)
 
-        console.log(response)
-
         if(response.status !== 201){
-            toast.error('Item não adicionado')
+            return toast.error('Item não adicionado')
         }
 
         setNome("");
@@ -44,7 +32,7 @@ const ModalNewItem = ({closeModal, getBurgers}) => {
         setCategoria("");
         closeModal();
         getBurgers();
-        toast.success('Item adicionado com sucesso');
+        return toast.success('Item adicionado com sucesso');
     }
     return (
         <div className="modal-overlay">

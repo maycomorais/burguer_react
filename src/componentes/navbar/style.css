@@ -17,7 +17,7 @@
     border-radius: 15px;
     -webkit-box-shadow: 0px 9px 3px -4px rgba(58, 58, 58, 0.151); 
     box-shadow: 0px 9px 3px -4px rgba(58, 58, 58, 0.151);
-    justify-content: center;
+    justify-content: space-around;
 }
 .navbar > div > ul {
     display: flex;
@@ -25,7 +25,6 @@
 }
 .navbar > div > ul > a{
     display: inline-flex;
-    justify-content: space-around;
     text-decoration: none;
     color: #f5f5f5;
     font-size: 25px;

@@ -4,7 +4,7 @@
 }
 
 .modal-overlay{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
@@ -79,7 +79,7 @@
     font-size: 15px;
 }
 .modal-container > button {
-    width: 30%;
+    width: 35%;
     align-self: center;
     background: none;
     font-size: 30px;
