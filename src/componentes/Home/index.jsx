@@ -10,7 +10,7 @@ const Home = ({burgers, getBurgers}) => {
     return (
         
         <div className="home-container">
-            <h1>Lanches</h1>
+            <h1>Cardápio</h1>
             <input
             value={filterInput}
             onChange={(event) => {setfilterInput(event.target.value)}}
