@@ -7,6 +7,7 @@ const Card = ({burgers}) => {
             <div>
                 <img src={burgers.foto}/>
             </div>
+            <h2> {burgers.nome}</h2>
             <h3>Ingredientes: {burgers.ingredientes}</h3>
             <p>R$ {burgers.preco}</p>
             <p>Categoria: {burgers.categoria}</p>

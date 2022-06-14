@@ -1,0 +1,98 @@
+@font-face{
+    font-family: flame;
+  src: url(../../../assets/icons/FlameBold.otf);
+}
+
+.modal-overlay{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000004d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+}
+
+.modal-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 15%;
+    border-radius: 15px 15px 0 0;
+    background-color: #F91300;
+    margin-bottom: 10px;
+}
+.modal-container > div > h2 {
+    font-family: "flame";
+    color: white;
+}
+.modal-container > div > button {
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.modal-container > input{
+    align-items: center;
+    height: 40px;
+    margin: 0 15px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-family: "flame";
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.modal-container > input:focus {
+    border-color: #b3b3b3;
+}
+.modal-container > label {
+    align-items: center;
+    color: #F91300;
+    font-family: "flame";
+    text-align: center;
+    text-transform: uppercase;
+}
+.modal-container > select{
+    height: 5vh;
+    margin: 0 15px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "flame";
+    color: #757575;
+    font-size: 15px;
+}
+.modal-container > button {
+    width: 30%;
+    align-self: center;
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: #F91300;
+    cursor: pointer;
+    font-family: "flame";
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.modal-container > button > i {
+    padding-right: 10px;
+}
+.modal-container > button:hover{
+    color: #800f05;
+}

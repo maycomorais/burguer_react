@@ -1,3 +1,7 @@
+@font-face{
+    font-family: flame;
+  src: url(../../assets/icons/FlameBold.otf);
+}
 .home-container {
     display: flex;
     flex-direction: column;
@@ -5,9 +9,11 @@
     padding: 3rem;
 }
   
-.home-container > h2 {
-    font-size: large;
+.home-container > h1 {
+    font-family: "flame";
+    font-size: 40px;
     font-weight: 300;
+    color: #f91300;
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
